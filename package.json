@@ -1,0 +1,8 @@
+{
+	"name": "login.js",
+	"version": "0.0.1",
+	"description": "A simple JavaScript login page with localStorage",
+	"dependencies": null,
+	"main": "src/__main__.py",
+	"repository": "https://github.com/Totoro700/login.js",
+}
