@@ -24,7 +24,7 @@ function login(){ // Login
 			var pass=''; // Set password to nothing
 		}
 		localStorage.setItem('password', pass); // Update password to localUsername
-		alert('This page uses some local storage, if you want to clear or reset it, scroll down to the end of the page and click "Clear Data"'); // Quick Storage terms
+		alert('This page uses some local storage, go to your browser settings and click Clear Browsing data to clear localStorage.'); // Quick Storage terms
 	}else{ // User login before
 		var usernameQ=prompt('Please enter your username', ''); // Enter password
 		var passwordQ=prompt('Please enter your password', ''); // Enter username
